@@ -1,0 +1,36 @@
+# Marcsz Auto - Git Ignore File
+# Excludes temporary and generated files
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-*
+
+# Test files
+test/
+temp/
+tmp/
+
+# User-specific configuration backups
+*.old
+*.backup
+
+# Logs
+*.log
+
+# Compiled Lua (if any)
+luac.out
+
+# User custom scripts (optional - remove if you want to track them)
+# MarcszAUTO/modules/custom/

@@ -2,6 +2,13 @@
 
 A modular automation system for OTClient with an organized, easy-to-understand structure.
 
+## 📚 Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** - Get started in 5 minutes
+- **[Migration Guide](MIGRATION.md)** - Upgrading from old version? Read this
+- **[Contributing Guide](CONTRIBUTING.md)** - Learn how to add new features
+- **[Documentation Index](DOCS.md)** - Find the right documentation
+
 ## 📁 Project Structure
 
 ```
