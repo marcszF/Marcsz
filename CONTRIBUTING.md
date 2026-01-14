@@ -179,13 +179,15 @@ config.myFeature = {
 }
 
 -- In your module
-local CONFIG = dofile("config/settings.lua")
+-- CONFIG is globally available (loaded by init.lua)
 local myConfig = CONFIG.myFeature
 
 macro(myConfig.delay, "My Feature", function()
     -- Use myConfig.range, myConfig.itemId, etc.
 end)
 ```
+
+**Note**: CONFIG is loaded globally by `init.lua`, so you don't need to use `dofile()` in your modules.
 
 ## 🎨 Creating UI Elements
 

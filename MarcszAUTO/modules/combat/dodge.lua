@@ -3,7 +3,6 @@
 -- =========================================
 -- Smart dodging of boss mechanics (fire floors, etc.)
 
-local CONFIG = dofile("config/settings.lua")
 local dodgeConfig = CONFIG.dodge
 
 -- Track last mechanic time

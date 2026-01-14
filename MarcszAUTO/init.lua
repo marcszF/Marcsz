@@ -12,8 +12,8 @@ print("=================================")
 -- Load core libraries first
 dofile("lib/vlib.lua")
 
--- Load configuration
-local CONFIG = dofile("config/settings.lua")
+-- Load configuration and make it globally available
+CONFIG = dofile("config/settings.lua")
 
 -- =========================================
 -- UI MODULES (Visual elements)

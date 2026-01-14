@@ -3,7 +3,6 @@
 -- =========================================
 -- Automatically attack training dummies in house
 
-local CONFIG = dofile("config/settings.lua")
 local trainerConfig = CONFIG.trainer
 
 -- Check if player is inside house

@@ -3,7 +3,6 @@
 -- =========================================
 -- Advanced follow system with portal detection
 
-local CONFIG = dofile("config/settings.lua")
 local config = CONFIG.follow
 
 -- Memory tracking

@@ -3,7 +3,6 @@
 -- =========================================
 -- Drop items on ground to prevent being pushed
 
-local CONFIG = dofile("config/settings.lua")
 local config = CONFIG.antiPush
 
 addSeparator()

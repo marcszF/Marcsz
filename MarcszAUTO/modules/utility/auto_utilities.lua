@@ -3,7 +3,6 @@
 -- =========================================
 -- Auto-renew tasks, auto-sell, auto-deposit, auto-bless
 
-local CONFIG = dofile("config/settings.lua")
 local config = CONFIG.utilities
 
 -- Task Renewal (every 2 minutes)

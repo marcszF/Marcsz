@@ -3,7 +3,6 @@
 -- =========================================
 -- Countdown timer for boss raids with alarms
 
-local CONFIG = dofile("config/settings.lua")
 local bossConfig = CONFIG.boss
 
 local lastAlarmTime = ""
